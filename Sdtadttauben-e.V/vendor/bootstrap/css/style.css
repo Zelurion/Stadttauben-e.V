@@ -1,0 +1,79 @@
+.navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.Logo{
+  margin-top: 70px;
+}
+
+#home_txt_1{
+    float:left;
+    width: 49%;
+}
+
+.Taubenhaus_txt{
+  text-align: left;
+}
+
+#home_txt_2{
+    float: right;
+    width: 49%;
+}
+.Weg_txt{
+  text-align: left;
+}
+.container{
+    max-width: 1140px;
+}
+
+p.Schiller{
+    margin-top: -15px;
+}
+.Impressum_txt{
+  text-align: left;
+}
+.hr_dot{
+  border-top: 1px dashed;
+  width: 40%;
+  margin: 0px; 
+}
+.Datenschutzinformation_txt{
+  text-align: left;
+}
+.table {
+    display:table;
+    width:100%;
+}
+.tr {
+    display:table-row;
+}
+.Vereins_list_left {
+    display:table-cell;
+    width:25%;
+    text-align: left;
+}
+.Vereins_list_center {
+    display:table-cell;
+    text-align:left;
+    width:auto;
+}
+
+.gallerie{
+  color: rgba(255,255,255,.75);
+}
+.Unischtabre_Helfer_txt{
+  text-align: left;
+}
+.Kontakt_txt{
+  text-align: left;
+}
+/*!---------------------- dia show stuff below */
+.gallery{
+  margin: 1px 0px;
+}
+.gallery img{
+  width: 230px;
+  padding: 1px;
+}
