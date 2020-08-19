@@ -8,21 +8,32 @@
   margin-top: 70px;
 }
 
-#home_txt_1{
+.home_txt_1{
     float:left;
     width: 49%;
+}
+.home_txt_2{
+  float: right;
+  width: 49%;
+}
+.Bottom{
+  text-align: center;
 }
 
 .Taubenhaus_txt{
   text-align: left;
 }
-
-#home_txt_2{
-    float: right;
-    width: 49%;
-}
 .Weg_txt{
   text-align: left;
+}
+@media only screen and (max-width: 767px){
+  .home_txt_2{
+      width: 100%;
+  }
+  
+  .home_txt_1{
+      width: 100%;
+  }
 }
 .container{
     max-width: 1140px;
@@ -60,6 +71,7 @@ p.Schiller{
     width:auto;
 }
 
+
 .gallerie{
   color: rgba(255,255,255,.75);
 }
@@ -76,4 +88,12 @@ p.Schiller{
 .gallery img{
   width: 230px;
   padding: 1px;
+}
+
+.Aktuelles_home_txt{
+  text-align: justify;
+}
+.Aktuelles_titel{
+  float: right;
+  margin-right: 200px;
 }
